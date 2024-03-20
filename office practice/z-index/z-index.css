@@ -1,0 +1,30 @@
+.box{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.one{
+    background-color: rgb(116, 70, 158);
+    position: static;
+    /* _______ z-index _________
+        does not work in the case of static, default or auto position
+            */
+}
+
+.two{
+    background-color: rgb(61, 61, 163);
+    position:absolute;
+    /* _______ z-index _________
+            original position will overlap epement 3
+            */
+    z-index: 1;
+}
+
+.three{
+    background-color: rgb(182, 77, 77);
+    position: relative;
+    z-index: 5;
+}

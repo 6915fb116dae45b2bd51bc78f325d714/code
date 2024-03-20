@@ -1,0 +1,12 @@
+div{
+    height:200px;
+    width:300px;
+    background-color: rgb(90, 64, 204);
+    margin:2px;
+    box-shadow:6px 7px 5px rgb(106, 128, 74);
+    transition-property: ease-in-out;
+}
+
+div:hover{
+    box-shadow:10px 11px 12px rgb(133, 12, 32);
+}

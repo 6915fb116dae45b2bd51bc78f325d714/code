@@ -1,0 +1,14 @@
+#one{
+    height: 10px;
+    width: 20px;
+    background-color: aquamarine;
+    display: grid;
+    grid-area: 90px, 190px;
+    /* for rows and columns
+    # horizontal line is columns
+    vertical is rows*/
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+
+    grid-row-start: auto;
+}

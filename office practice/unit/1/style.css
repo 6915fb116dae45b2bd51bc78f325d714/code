@@ -1,0 +1,9 @@
+#set{
+    height: 150px;
+    width: 300px;
+    background-color: rgb(124, 124, 204);
+    border: 5px dotted black;
+    margin: 20px 1em 4opx 2em;
+    padding: 1em;
+    
+}

@@ -1,0 +1,177 @@
+#outer{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-color: rgb(255, 187, 0);
+    border-radius: 100%;
+    position: static;
+}
+
+/*section{
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    border-radius: 100%;
+    display: inline-block;
+}*/
+
+/* inner-most eye-ball */
+#eyn, #eyi{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 55px;
+    left: 150px;
+}
+
+
+#eyi{
+    /*height: 25px;
+    width: 25px;
+    background-color: black;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 55px;*/
+    left: 58px;
+    
+    
+}
+
+/* for mouth */
+
+#mouth{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(158, 23, 23);
+    border-radius: 0px 0px 50% 50%;
+    position: absolute;
+    top: 130px;
+    left: 73px;
+}
+
+/*  second eye-ball   "white"  */
+
+#eb, #ebi{
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 55px;
+}
+
+#eb{
+    
+    left: 152px;
+}
+
+#ebi{
+    
+    left: 60px;
+}
+
+/*  outer-most eye-ball   "black" */
+
+#ebb, #ebib{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(0, 0, 0, 0.9);
+    border-radius: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 57px;
+    transition: position ease-in-out 0.5s 0.5s;
+}
+
+#ebb{
+    left: 152px;
+    
+}
+
+#ebib{
+    left: 60px;
+    
+}
+
+/* transition property  */
+
+#ebb:hover{
+    top: 59px;
+    left: 156px;
+}
+
+ #ebib:hover{
+    top: 59px;
+    left: 64px;
+ }
+
+ /* find hod to do hover effect on both eye-inner-ball together!!!! */
+
+ /* middle teeth */
+
+ #m-t, #m-tt{
+    height: 20px;
+    width: 15px;
+    background-color: rgba(255, 255, 255);
+    border-radius: 0px 0px 20% 20%;
+    display: inline-block;
+    position: absolute;
+    top: 130px;
+    
+}
+
+#m-tt{
+    left: 105px;
+    border-right: 3px solid black;
+    
+}
+
+#m-t{
+    left: 123px;   
+}
+
+/* lest try for nose-triangle by using- rotate. scale, transform*/
+
+
+#nose{
+    height: 0px;
+    width: 0px;
+    border: 30px solid;
+    border-top: 30px solid transparent ;
+    border-bottom: 30px solid  rgb(255, 59, 10, 0.5);
+    border-right: 30px solid transparent;
+    border-left: 30px solid transparent;
+    position: absolute;
+    top: 55px;
+    left: 91px;
+    transition: property;
+}
+
+/* transition property  */
+
+#nose:hover{
+    transition-property: 1s ease-out 1s ;
+    
+    border: 20px solid rgb(155, 231, 231);
+
+    position: absolute;
+    top: 65px;
+    left: 95px;
+    transition: property;
+    
+}
+
+/* 
+For triangle-
+    we set boder as a form of lines
+position-pointed area
+    set by the border-sides (based on the side shown & transparent sides)
+*/
+
+
+

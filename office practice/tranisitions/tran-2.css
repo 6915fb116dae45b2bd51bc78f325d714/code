@@ -1,0 +1,61 @@
+/* different types of transition styles*/
+
+#o{
+    height:90px;
+    width:90px;
+    background-color: lime;
+    margin: 400px;
+    margin-top: 0 auto ;
+    transition: margin-top ease-in 1s;
+    margin-left: 0 auto ;
+    transition: margin-left ease-in 1s;
+}
+
+#o:hover{
+    background-color:rgb(148, 89, 204);
+    border-radius:50px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+
+#p{
+    height:90px;
+    width:90px;
+    background-color: rgb(212, 26, 82);
+    margin: 500px;
+    opacity: 0.5;
+    margin-left: 0 auto ;
+    
+    transition: margin-left ease-in ;
+    transition: margin-top ease-in ;
+    transition-duration: 0.1s;
+    margin-top: 0 auto ;
+    transition-duration: 0.1s;
+}
+
+#p:hover{
+    background-color:rgb(173, 32, 166);
+    border-radius:50px;
+    
+    margin-left: 50px;
+}
+
+
+#e{
+    background-color: rgba(255, 0, 179, 0.384);
+    border: 2px dotted black;
+    margin: 50 ;
+    
+    margin-left: 0 auto ;
+    transition: margin-top ease-in 1s;
+    transition: margin-left ease-out 1s;
+}
+
+#e:hover{
+    background-color:rgb(88, 80, 117);
+     border: 50px;
+}
+
+
+

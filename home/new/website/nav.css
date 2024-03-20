@@ -1,0 +1,54 @@
+/* nav.css */
+
+/* Navbar styling */
+.navbar .container-fluid {
+    background-color: black;
+    text-align: center;
+    color: white;
+    text-decoration: antiquewhite;
+    padding-left: 20px; /* Adjust the left padding as needed */
+    padding-right: 20px; /* Adjust the right padding as needed */
+    margin: 0; /* Remove default margin */
+}
+
+/* Brand name styling */
+.navbar-brand {
+    color: white !important; /* !important is used to ensure the color property takes precedence */
+}
+
+/* Navigation links styling */
+.navbar-nav .nav-link {
+    color: white !important; /* !important is used to ensure the color property takes precedence */
+}
+
+.section {
+    background-color: black;
+}
+
+.section .card {
+    border: 2px solid bisque; /* Use 'solid' to define border style */
+}
+
+.section .card img {
+    position: absolute;
+    wrapper: tue; /* I'm not sure what 'wrapper=tue' is intended for; you might want to check and correct it */
+    border-radius: inherit;
+    inset: 0;
+    size: min(90px, 100v); /* I assume 'size' is a typo; you might want to replace it with 'max-width' or 'max-height' based on your design */
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+    image-rendering: auto;
+}
+/* Additional styling for the link with name "About Card" */
+a[name="About Card"].my.1.jpg {
+    background-color: rgb(146, 107, 245);
+    height: 100%;
+    width: 100%;
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 1px 50px 0px;
+    opacity: 1;
+    /* Add any additional styles specific to this link */
+}

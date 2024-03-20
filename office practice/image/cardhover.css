@@ -1,0 +1,16 @@
+.card{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    inline-size: none;
+    border-radius: 30%;
+    box-shadow: 20px 30px black;
+    transform-style: preserve-3d;
+    margin: 2px;
+
+}
+
+div:hover{
+    box-shadow: 30px 40px ;
+
+}

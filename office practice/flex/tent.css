@@ -1,0 +1,92 @@
+/* flex-direaction is row as defalt*/
+#flex-container{
+    height: 500px;
+    width: 20px;
+    background-color: rgb(26, 216, 216);
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    /*flex-direction: column;*/
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 2px white;
+}
+
+
+h1{
+    text-size-adjust: 40px;
+    text-align: center;
+    color: black;
+}
+
+#jan{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(216, 26, 115);
+}
+
+#feb{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(216, 203, 26);
+}
+
+#mar{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(197, 216, 26);
+}
+
+#apr{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(111, 216, 26);
+}
+
+#may{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(26, 216, 42);
+}
+
+#jun{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(26, 216, 121);
+}
+
+#jul{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(26, 216, 191);
+}
+
+#aug{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(26, 130, 216);
+}
+
+#sep{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(26, 70, 216);
+}
+
+#oct{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(23, 26, 196);
+}
+
+#nov{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(99, 26, 216);
+}
+
+#dec{
+    height: 30px;
+    width: 200px;
+    background-color: rgb(194, 26, 216);
+}
